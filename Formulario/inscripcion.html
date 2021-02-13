@@ -1,0 +1,40 @@
+<!-- Hecho por: Andres Mauricio Cano Causil -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de inscripcion</title>
+    </head>
+
+    <body>
+        <h1>Formulario de inscripcion <br> de estudiantes</h1>
+        <form action="">
+            <p> <label for="nombres">Nombres: <input type="text" id="nombres" name="nombres"> </label> </p>
+            <p> <label for="apellidos">Apellidos: <input type="text" id="apellidos" name="apellidos"> </label> </p>
+            <p> <label for="direccion">Direccion: <input type="text" id="direccion" name="direccion"> </label> </p>
+            <p> <label for="telefono">Telefono: <input type="number" id="telefono" name="telefono"> </label> </p>
+            <p> <label for="correo">Correo: <input type="email" id="correo" name="email" name="email"> </label> </p>
+            <p> <label for="contrasenia">Contraseña: <input type="password" id="contrasenia" name="contrasenia"> </label> </p>
+            <p><input type="checkbox" id="becado" name="becado"><label for="becado"> Becado</label></p>
+            <p><label for="fecha_nacimiento">Fecha de nacimiento: <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"></label></p>
+            <p><label for="color">Color distintivo: <input type="color" id="color" name="color"></label></p>
+            <p><label for="acerca">Acerca de mi: </label></p>
+            <p><textarea id="acerca" cols="35" rows="6" name="acerca"></textarea></p>
+            <p>
+                <label for="genero">Seleccione su genero: </label>
+                <input type="radio" name="genero" id="genero" value="hombre"><label for="genero">Hombre</label>
+                <input type="radio" name="genero" id="genero" value="mujer"> <label for="genero">Mujer</label>
+            </p>
+            <p>
+                <label for="area">Area: </label>
+                <select name="area" id="area">
+                    <option value="null">Seleccione el area a aplicar</option>
+                    <option value="derecho">Derecho</option>
+                    <option value="ingenieria">Ingenieria</option>
+                    <option value="medicina">Medicina</option>
+                </select> 
+            </p>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
